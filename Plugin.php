@@ -74,9 +74,9 @@ $form->addInput($yuanjiao);
   public static function header()
   {$m=Typecho_Widget::widget('Widget_Options')->plugin('AutoPhotos')->jianju;
    $r=Typecho_Widget::widget('Widget_Options')->plugin('AutoPhotos')->yuanjiao;
-    echo '<link rel="stylesheet" href="https://cdn.macapp.org.cn/resource/plugins/AutoPhotos/style.css?20200804">';
+    echo '<link rel="stylesheet" href="/style.css?20200804">';
 if (!empty(Typecho_Widget::widget('Widget_Options')->plugin('AutoPhotos')->tuozhan) && in_array('fancybox',  Typecho_Widget::widget('Widget_Options')->plugin('AutoPhotos')->tuozhan)){
-echo '<link rel="stylesheet" href="https://cdn.macapp.org.cn/resource/jquery.fancybox.min.css">';
+echo '<link rel="stylesheet" href="/resource/jquery.fancybox.min.css">';
 }
    if($r||$m){
    ?>
@@ -106,10 +106,10 @@ div.photos figure div img,.zemedia {
   public static function footer()
   {
 if (!empty(Typecho_Widget::widget('Widget_Options')->plugin('AutoPhotos')->tuozhan) && in_array('jq',  Typecho_Widget::widget('Widget_Options')->plugin('AutoPhotos')->tuozhan)){
-echo '<script src="https://cdn.macapp.org.cn/resource/jquery.min.js"></script>';}
+echo '<script src="/resource/jquery.min.js"></script>';}
     
 if (!empty(Typecho_Widget::widget('Widget_Options')->plugin('AutoPhotos')->tuozhan) && in_array('fancybox',  Typecho_Widget::widget('Widget_Options')->plugin('AutoPhotos')->tuozhan)){
-echo '<script src="https://cdn.macapp.org.cn/resource/jquery.fancybox.min.js"></script>';}     
+echo '<script src="/resource/jquery.fancybox.min.js"></script>';}     
   ?>
 <script>
 (function(){
