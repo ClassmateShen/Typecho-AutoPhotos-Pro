@@ -6,7 +6,7 @@
  * @package 文章图片自动排版
  * @author 叫我沈同学
  * @version 2.1
- * @link https://shenkx.com
+ * @link https://blog.shenkx.com
  */
 class AutoPhotos_Plugin implements Typecho_Plugin_Interface
 {
